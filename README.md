@@ -1,34 +1,31 @@
-# simple-calculator
-# this is a simple calculator design written in python
-f=True
-while f==True:
-    sum=0
-    call=int(input('1: desimal value number\n2: intiger\n'))
-    if call == 1:
+this is a simple calculator designed in python
 
-        call1=float(input('enter the first number\t'))
-        call2=float(input('enter the second number\t'))
-    elif:
-        call1=int(input('enter the first number\t'))
-        call2=int(input('enter the second number\t'))
+while 1:
+    def add(n1,n2):
+        s=n1+n2
+        print(s)
+    def mult(n1,n2):
+        s=n1*n2
+        print(s)
+    def sub(n1,n2):
+        s=n1-n2
+        print(s)
+    def div(n1,n2):
+        s=n1/n2
+        print(s)
+
+    n1=int(input('enter the first num'))
+    n2=int(input('enter the second num'))
+    c=int(input('1=addition\n 2=multiplication\n 3=sub\n 4=divi\n 5=exit ---'))
+    if c==1:
+        add(n1,n2)
+    elif c==2:
+        mult(n1,n2)
+    elif c==3:
+        sub(n1,n2)
+    elif c==4:
+        div(n1,n2)
     else:
-        print('wrong choice')
-        
-    print("select a choice : the available options are :\n")
-    a=int(input('1 Multiplictaion\n2.Division\n3.Addition\n4.Substraction\n5. exit'))
-    if a==1:
-        sum+=call1*call2
-        print(sum)
-    elif a==2:
-        sum+=call1/call2
-        print(sum)
-    elif a==2:
-        sum+=call1+call2
-        print(sum)
-    elif a==4:
-        sum+=call1-call2
-        print(sum)
-    elif a==5:
-        break
-    else:
-        print('wrong choice')
+        exit()# simple-calculator
+
+
