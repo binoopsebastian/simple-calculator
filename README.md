@@ -1,4 +1,22 @@
 this is a simple calculator designed in python
+this is a simple calculator designed in 
+this is a simple calculator designed in python
+this is a simple calculator designed in python
+this is a simple calculator designed in python
+v
+v
+v
+v
+v
+v
+v
+v
+vvvv
+this is a simple calculator designed in pythonv
+v
+this is a simple calculator designed in pyth
+
+
 
 while 1:
     def add(n1,n2):
