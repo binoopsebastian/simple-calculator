@@ -1,5 +1,4 @@
 this is a simple calculator designed in python
-
 while 1:
     def add(n1,n2):
         s=n1+n2
