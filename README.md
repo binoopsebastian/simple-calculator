@@ -13,7 +13,6 @@ while 1:
     def div(n1,n2):
         s=n1/n2
         print(s)
-
     n1=int(input('enter the first num'))
     n2=int(input('enter the second num'))
     c=int(input('1=addition\n 2=multiplication\n 3=sub\n 4=divi\n 5=exit ---'))
